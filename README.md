@@ -32,9 +32,24 @@ Asegúrate de tener instalado:
 
 ---
 
-## ▶️ Cómo Ejecutar el Backend
 
-1. Clonar el repositorio:
-
-```bash
 git clone https://github.com/Dmente97/GameDJ-Backend.git
+
+🔌 Endpoints Principales
+Juegos
+Método	Endpoint	Descripción
+GET	/api/games	Obtener lista de juegos
+GET	/api/games/{id}	Obtener juego por ID
+POST	/api/games	Crear nuevo juego
+Reseñas
+Método	Endpoint	Descripción
+GET	/api/games/{id}/reviews	Reseñas de un juego
+POST	/api/games/{id}/reviews	Crear reseña para un juego
+Usuarios
+Método	Endpoint	Descripción
+GET	/api/users	Obtener usuarios
+
+👨‍💼 Autor
+
+Daniel Méndez
+Estudiante – Proyecto para entrega académica.
